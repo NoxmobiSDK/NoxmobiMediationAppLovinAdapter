@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author       = { "Chong" => "zhanglovesan@gmail.com" }
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "https://github.com/NoxmobiSDK//NoxmobiMediationAppLovinAdapter.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/NoxmobiSDK/NoxmobiMediationAppLovinAdapter.git", :tag => "#{spec.version}" }
   spec.source_files = "NoxmobiMediationAppLovinAdapter.framework/Headers/*.{h}"
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   spec.ios.vendored_frameworks = 'NoxmobiMediationAppLovinAdapter.framework'

@@ -9,6 +9,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define NoxmobiMediationAppLovinAdapterVersion @"10.3.4.2"
+#define NoxmobiMediationAppLovinAdapterVersion @"11.0.0.0"
 
 

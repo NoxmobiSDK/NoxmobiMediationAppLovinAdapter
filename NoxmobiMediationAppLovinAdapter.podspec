@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   spec.ios.vendored_frameworks = 'NoxmobiMediationAppLovinAdapter.framework'
   spec.requires_arc = true
-  
+  spec.swift_versions = %w(5.0)
   spec.dependency "AppLovinSDK", "12.1.0"
 end

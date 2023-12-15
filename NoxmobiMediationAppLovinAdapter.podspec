@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMediationAppLovinAdapter"
   spec.license      = "MIT"
   spec.author       = { "Chong" => "zhanglovesan@gmail.com" }
-  spec.platform     = :ios, "10.0"
+  spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/NoxmobiSDK/NoxmobiMediationAppLovinAdapter.git", :tag => "#{spec.version}" }
   spec.source_files = "NoxmobiMediationAppLovinAdapter.framework/Headers/*.{h}"
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }

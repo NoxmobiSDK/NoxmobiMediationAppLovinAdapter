@@ -1,6 +1,6 @@
 framework module NoxmobiMediationAppLovinAdapter {
   umbrella header "NoxmobiMediationAppLovinAdapter.h"
-
   export *
+
   module * { export * }
 }

@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiMediationAppLovinAdapter"
-  spec.version      = "12.4.1.0" # Mark
+  spec.version      = "12.4.1.1" # Mark
   spec.summary      = "Noxmobi ad mediation adapter for AppLovin."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMediationAppLovinAdapter"
   spec.license      = "MIT"
@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
   spec.source_files = "NoxmobiMediationAppLovinAdapter.framework/Headers/*.{h}"
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   spec.ios.vendored_frameworks = 'NoxmobiMediationAppLovinAdapter.framework'
+  spec.resource_bundles = {'NoxmobiMediationAppLovinAdapterPrivacy'=>['PrivacyInfo.xcprivacy']}
   spec.requires_arc = true
   spec.swift_versions = %w(5.0)
   spec.dependency "AppLovinSDK", "12.4.1"

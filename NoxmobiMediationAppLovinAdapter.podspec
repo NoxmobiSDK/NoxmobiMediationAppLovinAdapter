@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiMediationAppLovinAdapter"
-  spec.version      = "12.6.0.1" # Mark
+  spec.version      = "12.6.1.0" # Mark
   spec.summary      = "Noxmobi ad mediation adapter for AppLovin."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMediationAppLovinAdapter"
   spec.license      = "MIT"
@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
   spec.resource_bundles = {spec.name => 'NoxmobiMediationAppLovinAdapter.framework/PrivacyInfo.xcprivacy'}
   spec.requires_arc = true
   spec.swift_versions = %w(5.0)
-  spec.dependency "AppLovinSDK", "12.6.0"
+  spec.dependency "AppLovinSDK", "12.6.1"
 end
